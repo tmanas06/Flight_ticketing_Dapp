@@ -1,9 +1,15 @@
 # Flight Ticketing Decentralized Application 
 
-To set up the repository and run the marketplace locally, run the below
+## To Download on system
 ```bash
-git clone 
-
+git clone https://github.com/tmanas06/Flight_ticketing_Dapp
+cd Flight_ticketing_Dapp
 npm install
+```
+## to run it
+```bash
 npm start
 ```
+
+## Link to the presentation
+https://www.canva.com/design/DAGVOOljlCk/-Ch4pucXAPH1PqlfvESmJQ/edit
