@@ -1,0 +1,71 @@
+/* NFTDetail.css */
+
+.nft-detail-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+  }
+  
+  .nft-detail-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+  }
+  
+  .nft-detail-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-detail-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .nft-detail-price,
+  .nft-detail-owner,
+  .nft-detail-seller {
+    font-size: 1.1rem;
+    color: #1a73e8;
+    margin: 0.3rem 0;
+  }
+  
+  .nft-detail-owner,
+  .nft-detail-seller {
+    font-weight: 500;
+  }
+  
+  .nft-not-found {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #ff4b4b;
+    margin-top: 3rem;
+  }
+  .buy-nft-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #1a73e8; /* Primary color */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-nft-button:hover {
+    background-color: #155ab5; /* Darker shade on hover */
+  }

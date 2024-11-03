@@ -1,0 +1,8 @@
+/* ListNFT.css */
+.background {
+    background-image: url('./bgbook.jpg'); /* Update with the path to your image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Make sure it covers the full viewport height */
+}
+

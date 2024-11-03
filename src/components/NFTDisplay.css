@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin', sans-serif;
+    background-color: #f0f4f8; /* Light background for contrast */
+  }
+  
+  /* Main container */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+    font-size: 2em;
+  }
+  
+  
+  /* Mint section styling */
+  .mint-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4caf50; /* Green color for the mint button */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  button:disabled {
+    background-color: #ccc; /* Grey color when disabled */
+    cursor: not-allowed; /* Change cursor to indicate it's disabled */
+  }
+  
+  /* Message styling */
+  .error-message {
+    color: red; /* Red color for error messages */
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  .success-message {
+    color: green; /* Green color for success messages */
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  .flight-ticket-image {
+    display: block;
+    margin: 20px auto; /* Center the image with top/bottom margin */
+    width: 250px; /* Ensure it doesn't exceed the width of its container */
+    height: 350px; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth scale effect on hover */
+  }
+  
+  .flight-ticket-image:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+  }

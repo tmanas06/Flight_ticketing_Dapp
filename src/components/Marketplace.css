@@ -1,0 +1,49 @@
+.marketplace-background {
+    background-image: url('./abg.jpg'); /* Replace with the correct path */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
+    position: absolute; /* Position it absolutely */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Set it behind other content */
+}
+  /* Import Octopus font for the title */
+  @font-face {
+    font-family: 'Octopus';
+    src: url('./OctopusGameItalic-lgvnV.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Import Presario font for the subtitle */
+  @font-face {
+    font-family: 'Presario';
+    src: url('./PresarioText-5zxx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Style for the title */
+  .title-font {
+    font-family: 'Octopus', sans-serif;
+    font-size: 6rem;
+  }
+  
+  /* Style for the subtitle */
+  .subtitle-font {
+    font-family: 'Presario', sans-serif;
+    font-size: 2rem;
+  }
+  .how-it-works-background {
+    background-image: url('https://asset.onekey-asset.com/portal/95f745c503697ddd9746f7c85db98b41337fb82d/static/bece541e0f81c66556e71b6134fb1a97/ea737/desktop-feature-intro-02.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents repeating of the background image */
+    padding: 20px; /* Adds some padding if necessary */
+    /* You can also add a color overlay if needed */
+    position: relative;
+}
+
+

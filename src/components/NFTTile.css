@@ -1,0 +1,21 @@
+.nft-tile {
+    position: relative;
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden;
+    padding: 20px; /* Padding inside the card */
+    background: linear-gradient(45deg, #ff6ec4, #ffdd00, #00bcd4, #4caf50, #ff5722); /* Multicolor gradient */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.nft-tile::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* Adjust according to your desired border size */
+    left: -5px; /* Adjust according to your desired border size */
+    right: -5px; /* Adjust according to your desired border size */
+    bottom: -5px; /* Adjust according to your desired border size */
+    border-radius: 12px; /* Match the card's border radius */
+    background: linear-gradient(45deg, #ff6ec4, #ffdd00, #00bcd4, #4caf50, #ff5722); /* Multicolor gradient */
+    z-index: -1; /* Place behind the card */
+    filter: blur(5px); /* Optional blur effect */
+}

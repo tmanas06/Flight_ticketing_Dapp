@@ -1,0 +1,44 @@
+/* BookFlightTicket.css */
+.background {
+    background-image: url('./abg.jpg'); /* Update with the path to your image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Make sure it covers the full viewport height */
+  }
+
+
+form {
+  border: 2px solid #6b5b95; /* Outline color */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin-bottom: 0.5rem; /* Space below the label */
+}
+
+input, select {
+  border: 2px solid #6b5b95; /* Outline color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 0.5rem; /* Padding inside input fields */
+  transition: border-color 0.3s; /* Smooth transition on focus */
+}
+
+input:focus, select:focus {
+  border-color: #6b5b95; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  background: linear-gradient(to right, #6b5b95, #4e3f6e); /* Gradient button background */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+  padding: 0.5rem 1rem; /* Padding for button */
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+  background: linear-gradient(to right, #4e3f6e, #6b5b95); /* Change gradient on hover */
+}
