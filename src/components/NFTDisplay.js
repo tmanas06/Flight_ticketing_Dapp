@@ -30,33 +30,22 @@ const NFTDisplay = () => {
   if (flightDetails) {
     const { from, to, airline, flightClass } = flightDetails;
     
-    if (from === 'Hyderabad' && to === 'Mumbai' && airline === 'IndiGo' && flightClass === 'Economy') {
-      tokenURI = 'https://ipfs.io/ipfs/QmSVJ15iaptnoVD5GKksQdS4zfRCyxvZ7cKAJ6QyFJvceU';
-      imageSrc = hmi1;
-    } else if (from === 'Hyderabad' && to === 'Delhi' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi1;
-    }else if (from === 'Hyderabad' && to === 'Guwhati' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/QmXNkweJd3ojst7vuoDjeJoejzkkKmHyRzFHGkZprKn1f2';
-      imageSrc = hmi1;
-    }else if (from === 'Guwhati' && to === 'Hyderabad' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/QmdaAKuBoQMc5ZFsAjeKik7kH3JjrCD6pw6s8sVdpk8uaT';
-      imageSrc = hmi1;
+    // Define valid cities, airlines and classes
+    const validCities = ['Hyderabad', 'Mumbai', 'Delhi', 'Guwhati', 'Chennai'];
+    const validAirlines = ['Air India', 'IndiGo', 'SpiceJet', 'Go Air'];
+    const validClasses = ['Business', 'Economy', 'First Class'];
+    
+    // Check if it's a valid route
+    if (validCities.includes(from) && 
+        validCities.includes(to) && 
+        from !== to && 
+        validAirlines.includes(airline) && 
+        validClasses.includes(flightClass)) {
+        
+        // Set the same tokenURI and image for all valid combinations
+        tokenURI = 'https://ipfs.io/ipfs/QmVXTRzLCX6HnWAbgPAJ59n4n5zziUfxbNd1PAbptGuYph';
+        imageSrc = hmi1;
     }
-    else if (from === 'Hyderabad' && to === 'Chennai' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi1;
-    }else if (from === 'Mumbai' && to === 'Hyderabad' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi1;
-    }else if (from === 'Mumbai' && to === 'Delhi' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi1;
-    }else if (from === 'Mumbai' && to === 'Chennai' && airline === 'Air India' && flightClass === 'Business') {
-      tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi1;
-    }
-    // Add more conditions as needed...
   }
 
   const contractAddress = '0xE30A1C70C61FB3d2de3518348dCe9b3045a37E30';
