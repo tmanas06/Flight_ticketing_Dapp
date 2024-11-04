@@ -35,26 +35,26 @@ const NFTDisplay = () => {
       imageSrc = hmi1;
     } else if (from === 'Hyderabad' && to === 'Delhi' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }else if (from === 'Hyderabad' && to === 'Guwhati' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/QmXNkweJd3ojst7vuoDjeJoejzkkKmHyRzFHGkZprKn1f2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }else if (from === 'Guwhati' && to === 'Hyderabad' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/QmdaAKuBoQMc5ZFsAjeKik7kH3JjrCD6pw6s8sVdpk8uaT';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }
     else if (from === 'Hyderabad' && to === 'Chennai' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }else if (from === 'Mumbai' && to === 'Hyderabad' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }else if (from === 'Mumbai' && to === 'Delhi' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }else if (from === 'Mumbai' && to === 'Chennai' && airline === 'Air India' && flightClass === 'Business') {
       tokenURI = 'https://ipfs.io/ipfs/Qmdnj8LWYhX4atMnbLT6dtoHTczDn63W88GoRzz87nZYj2';
-      imageSrc = hmi2;
+      imageSrc = hmi1;
     }
     // Add more conditions as needed...
   }
