@@ -1,11 +1,15 @@
-# Basic NFT Marketplace end to end
+# Flight Ticketing Decentralized Application 
 
-This code is for the Tutorial [Build your own NFT Marketplace from Scratch](https://docs.alchemy.com/alchemy/) built by [alchemy.com](https://alchemy.com)
-
-To set up the repository and run the marketplace locally, run the below
+## To Download on system
 ```bash
-git clone https://github.com/OMGWINNING/NFT-Marketplace-Tutorial
-cd NFT-Marketplace-Tutorial
+git clone https://github.com/tmanas06/Flight_ticketing_Dapp
+cd Flight_ticketing_Dapp
 npm install
+```
+## to run it
+```bash
 npm start
 ```
+
+## Link to the presentation
+https://www.canva.com/design/DAGVOOljlCk/-Ch4pucXAPH1PqlfvESmJQ/edit
