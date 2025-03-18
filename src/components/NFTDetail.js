@@ -20,7 +20,7 @@ const NFTDetail = () => {
         setProvider(web3Provider);
 
         const signer = web3Provider.getSigner();
-        const contractAddress = '0xE30A1C70C61FB3d2de3518348dCe9b3045a37E30'; // Replace with your contract address
+        const contractAddress = '0x26b989b9525Bb775C8DEDf70FeE40C36B397CE67'; // Replace with your contract address
         const mintingContract = new ethers.Contract(contractAddress, YourMintingContract.abi, signer);
         setContract(mintingContract);
       } else {

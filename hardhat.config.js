@@ -28,6 +28,11 @@ module.exports = {
     goerli: {
       url: process.env.REACT_APP_ALCHEMY_API_URL,
       accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
+    },
+    eduChain: {
+      url: "https://open-campus-codex-sepolia.drpc.org",
+      chainId: 656476,
+      accounts: [ process.env.REACT_APP_PRIVATE_KEY ]
     }
   },
   solidity: {

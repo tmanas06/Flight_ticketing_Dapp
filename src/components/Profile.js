@@ -22,10 +22,10 @@ export default function Profile() {
       const addr = await signer.getAddress();
       updateAddress(addr); // Update address in Profile component
   
-      // Check if connected to Sepolia
+      // Check if connected to EDU Chain Testnet
       const network = await provider.getNetwork();
-      if (network.chainId !== 11155111) { // Sepolia's Chain ID
-        alert("Please switch to the Sepolia test network.");
+      if (network.chainId !== 656476) { // EDU Chain Testnet's Chain ID
+        alert("Please switch to the EDU Chain Testnet network.");
         return;
       }
   
